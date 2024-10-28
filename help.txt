@@ -1,27 +1,30 @@
-The Dungeon
 You are in a dungeon with 25 rooms, hunting for the Wumpus.
-Hazards
+
 Two dragons roam the dungeon and if they find you, they will relocate you to a random
 room in the dungeon. When you are next to a room with dragons, you will smell a "scent of
 charcoal".
+
 There are two pit traps and if you enter their room, you will fall to your death. When you
 are next to a room with a pit trap, you will hear "echoes of water drops".
+
 Your goal is to unlock the cage the Wumpus is in by collecting the three gems located in
 various rooms in the dungeon that will force thet the gates open. Once open, you need to
 find the room the Wumpus is in and capture it. You have a few nets that you came pre-
 pared with. In case you miss the Wumpus when throwing to catch it, you will find some
 more around the dungeon. If the room the Wumpus is in is unlocked, you will "hear slight
 shuffling."
+
 Although the odds are against you, you may find a trusty lantern to help you along the way.
 If found, the lantern will show what is ahead in a room of your choice. Careful though, you
 can only use the lantern three times before it runs out of fuel.
-Action:
-• N)orth
-• S)outh
-• E)ast
-• W)est
-• attempt C)apture
-• Lantern
-• display Inventory
-• H)elp
-• Q)uit
+
+Actions:
+- N)orth
+- S)outh
+- E)ast
+- W)est
+- attempt C)apture
+- L)antern
+- display I)nventory
+- H)elp
+- Q)uit
