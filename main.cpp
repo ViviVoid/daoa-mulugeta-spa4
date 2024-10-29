@@ -12,14 +12,26 @@ void describeGoal() {
 // Stackoverflow post for reading .txt files
 // https://stackoverflow.com/questions/6051865/how-to-read-and-write-to-a-text-file-in-c
 void help() {
-    fstream newfile;
-    newfile.open("help.txt",ios::in);
-    if (newfile.is_open()){ //checking whether the file is open
+    fstream newFile;
+    newFile.open("help.txt",ios::in);
+    if (newFile.is_open()){ //checking whether the file is open
         string tp;
-        while(getline(newfile, tp)){ //read data from file object and put it into string.
+        while(getline(newFile, tp)){ //read data from file object and put it into string.
             cout << tp << "\n"; //print the data of the string
         }
-        newfile.close(); //close the file object.
+        newFile.close(); //close the file object.
+    }
+}
+
+void map() {
+    fstream newFile;
+    newFile.open("map.txt",ios::in);
+    if (newFile.is_open()){ //checking whether the file is open
+        string tp;
+        while(getline(newFile, tp)){ //read data from file object and put it into string.
+            cout << tp << "\n"; //print the data of the string
+        }
+        newFile.close(); //close the file object.
     }
 }
 
@@ -36,6 +48,21 @@ void help() {
 
 int main()
 {
+    bool quit = false;
     help();
+    char command;
+    while(!quit) {
+        cout << "Enter command:" << endl;
+        cin >> command;
+        if (command == 'q' || command == 'Q') {
+            quit = true;
+        } else if (command == 'h' || command == 'H') {
+            help();
+        } else if (command == 'm' || command == 'M') {
+            map();
+        } else {
+            cout << "Unrecognized command. Press h for help." << endl;
+        }
+    }
     return 0;
 }

@@ -1,3 +1,5 @@
+****
+
 You are in a dungeon with 25 rooms, hunting for the Wumpus.
 
 Two dragons roam the dungeon and if they find you, they will relocate you to a random
@@ -28,3 +30,5 @@ Actions:
 - display I)nventory
 - H)elp
 - Q)uit
+
+****
