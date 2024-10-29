@@ -9,4 +9,6 @@ add_executable(SPA4 main.cpp
         interactable.cpp
         interactable.h
         Player.cpp
-        Player.h)
+        Player.h
+        Dungeon.cpp
+        Dungeon.h)
