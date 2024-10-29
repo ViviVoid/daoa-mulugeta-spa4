@@ -1,3 +1,0 @@
-C:/Users/daoa/Documents/SPA4/cmake-build-debug/CMakeFiles/SPA4.dir
-C:/Users/daoa/Documents/SPA4/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/daoa/Documents/SPA4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
