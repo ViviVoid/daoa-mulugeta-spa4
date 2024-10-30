@@ -20,13 +20,13 @@
 \prof{Professor Khan}
 \className{Procedural and Object Oriented C++}
 \classCode{CSC 2210 001}
-\submissionDate{10/27/2024}
-\githubRepo{https://github.com/ViviVoid/daoa-mulugeta-spa4/tree/main} 
+\submissionDate{10/29/2024}
+\githubRepo{https://github.com/ViviVoid/daoa-mulugetah-spa4/tree/main} 
 %For Informal Reports
 \laboratoryDate{01/17/2024} % Submission Date
 
 
-\lfoot{\footnotesize{FOOTNOTE}}
+\lfoot{\footnotesize{}}
 
 \begin{document}
 
@@ -60,21 +60,25 @@ Action:
     \item \textbf{E})ast
     \item \textbf{W})est
     \item attempt \textbf{C})apture
-    \item \textbf{L}antern
-    \item display \textbf{I}nventory
+    \item \textbf{L})antern
+    \item display \textbf{I})nventory
     \item \textbf{H})elp
     \item \textbf{Q})uit
 \end{itemize}
 
+\newpage
+
 \section{Implementation Specifics}
 \subsection{Andy Dao}
 
-Interactables shall be implemented by Andy Dao.
+Interactables and all inheriting classes shall be implemented by Andy Dao.
 
 \subsection{Helina Mulugeta}
-Dungeon, Room and Player classes shall be implemented by Helina.
+
+Dungeon, Room and Player classes shall be implemented by Helina.\newline
 
 \section{Sample Map}
+
 \begin{verbatim}
 ? + . . >
 . @ . ! .
@@ -99,6 +103,11 @@ g ! . . @
     \caption{Class Diagram}
     \label{fig:enter-label}
 \end{figure}
+
+\section{Uniqueness}
+
+Our version of Hunt the Wumpus has a lantern which will provide the player additional clues if found. This gives the player the incentive to move to various rooms and find lanterns but still limits them from overusing since they are limited to 3 uses. There are also gems that the player needs to collect before the Wumpus can be released. This will give the player time to get accustomed to moving around the map before they can start hunting the Wumpus. This is not without danger though, as they can still fall into a pit. 
+
 
 
 \end{document}
