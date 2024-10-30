@@ -4,7 +4,7 @@
 
 #ifndef DUNGEON_H
 #define DUNGEON_H
-#include "room.h"
+#include "Room.h"
 
 
 class Dungeon {

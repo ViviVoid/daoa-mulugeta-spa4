@@ -17,4 +17,12 @@ add_executable(SPA4 main.cpp
         Player.cpp
         Player.h
         Dungeon.cpp
-        Dungeon.h)
+        Dungeon.h
+        Gem.h
+        Hazard.h
+        PitTrap.h
+        Dragon.h
+        Wumpus.h
+        Weapon.h
+        Net.h
+        Lantern.h)

@@ -6,7 +6,7 @@
 #define ROOM_H
 #include <string>
 
-#include "interactable.h"
+#include "Interactable.h"
 #include "Player.h"
 
 
