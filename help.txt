@@ -1,4 +1,4 @@
-****
+********************************************************************************************
 
 You are in a dungeon with 25 rooms, hunting for the Wumpus.
 
@@ -20,15 +20,19 @@ Although the odds are against you, you may find a trusty lantern to help you alo
 If found, the lantern will show what is ahead in a room of your choice. Careful though, you
 can only use the lantern three times before it runs out of fuel.
 
-Actions:
-- N)orth
-- S)outh
-- E)ast
-- W)est
-- attempt C)apture
-- L)antern
-- display I)nventory
-- H)elp
-- Q)uit
+********************************************************************************************
 
-****
+|---------------------------|
+| Actions:                  |
+|---------------------------|
+| - N)orth                  |
+| - S)outh                  |
+| - E)ast                   |
+| - W)est                   |
+| - attempt C)apture        |
+| - L)antern                |
+| - display I)nventory      |
+| - H)elp                   |
+| - Q)uit                   |
+|---------------------------|
+
